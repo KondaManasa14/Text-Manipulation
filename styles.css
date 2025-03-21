@@ -1,0 +1,52 @@
+/* Basic reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Styling for the header */
+header {
+    background-color: lightcoral;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Styling for the main content */
+main {
+    padding: 20px;
+    text-align: center;
+    background-color: #f9f9f9;
+}
+
+/* Styling for the textarea and input fields */
+textarea, input {
+    margin-top: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 100%;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: lightcoral;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    margin: 10px;
+}
+
+button:hover {
+    background-color: darkred;
+}
+
+/* Styling for the footer */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+}

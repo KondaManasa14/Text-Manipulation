@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text Manipulation with Regex</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Text Manipulation with Regular Expressions</h1>
+    </header>
+    <main>
+        <div class="container">
+            <textarea id="inputText" rows="10" cols="50" placeholder="Enter text here..."></textarea>
+            <br>
+            <label for="searchPattern">Search Pattern:</label>
+            <input type="text" id="searchPattern">
+            <br>
+            <label for="replacePattern">Replace With:</label>
+            <input type="text" id="replacePattern">
+            <br>
+            <button onclick="performSearch()">Search</button>
+            <button onclick="performReplace()">Replace</button>
+            <button onclick="performFormatting()">Format</button>
+            <br><br>
+            <h2>Result</h2>
+            <textarea id="resultText" rows="10" cols="50" readonly></textarea>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2024 Text Manipulation Example</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
